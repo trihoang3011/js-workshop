@@ -1,0 +1,22 @@
+{
+  "name": "js-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-sugar": "nodemon p-sugar/index.js",
+    "start-express-graphql": "nodemon p-express-graphql/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "sugar": "^2.0.4"
+  }
+}
